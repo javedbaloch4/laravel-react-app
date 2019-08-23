@@ -1,0 +1,33 @@
+body {
+    background: #f8fafc;
+}
+
+.react-nav {
+    background: #FFF !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.nav-link > * {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link > *:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron {
+    background:url('./images/formik.jpg');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.spinner-border { 
+    width: 100px !important;
+    height: 100px;
+    position: relative;
+    top: 250px;
+    left: 450px;
+    z-index: 100;
+}
